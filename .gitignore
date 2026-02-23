@@ -1,0 +1,29 @@
+# Build output
+jira
+jira-cli
+*.exe
+
+# Environment and config files
+.env
+*.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage.out
+coverage.html
+
+# Go
+dist/
+
+# Claude Code local settings
+.claude/
